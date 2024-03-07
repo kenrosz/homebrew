@@ -1,0 +1,13 @@
+prefix=/opt/homebrew/Cellar/libsndfile/1.2.2
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/libsndfile/1.2.2/lib
+includedir=/opt/homebrew/Cellar/libsndfile/1.2.2/include
+
+Name: sndfile
+Description: A library for reading and writing audio files
+Requires:
+Requires.private: flac ogg vorbis vorbisenc opus libmpg123
+Version: 1.2.2
+Libs: -L${libdir} -lsndfile
+Libs.private: -lmp3lame
+Cflags: -I${includedir}

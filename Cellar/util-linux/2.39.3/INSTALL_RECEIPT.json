@@ -1,0 +1,55 @@
+{
+  "homebrew_version": "4.2.4-48-g4fdc7e9",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "lib/pkgconfig/blkid.pc",
+    "lib/pkgconfig/fdisk.pc",
+    "lib/pkgconfig/smartcols.pc",
+    "lib/pkgconfig/uuid.pc"
+  ],
+  "time": 1709701545,
+  "source_modified_time": 1701718658,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "gettext",
+      "version": "0.22.5",
+      "revision": 0,
+      "pkg_version": "0.22.5",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2.39.3",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/u/util-linux.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

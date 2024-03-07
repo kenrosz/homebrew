@@ -1,0 +1,218 @@
+{
+  "homebrew_version": "4.2.11-36-gd55fa09",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "share/vim/vim91/doc/vim2html.pl",
+    "share/vim/vim91/tools/efm_filter.pl",
+    "share/vim/vim91/tools/efm_perl.pl",
+    "share/vim/vim91/tools/pltags.pl",
+    "share/vim/vim91/tools/shtags.pl",
+    "share/man/da/man1/vim.1",
+    "share/man/da/man1/vimtutor.1",
+    "share/man/da.ISO8859-1/man1/vim.1",
+    "share/man/da.ISO8859-1/man1/vimtutor.1",
+    "share/man/da.UTF-8/man1/vim.1",
+    "share/man/da.UTF-8/man1/vimtutor.1",
+    "share/man/de/man1/vim.1",
+    "share/man/de.ISO8859-1/man1/vim.1",
+    "share/man/de.UTF-8/man1/vim.1",
+    "share/man/fr/man1/evim.1",
+    "share/man/fr/man1/vim.1",
+    "share/man/fr/man1/vimtutor.1",
+    "share/man/fr.ISO8859-1/man1/evim.1",
+    "share/man/fr.ISO8859-1/man1/vim.1",
+    "share/man/fr.ISO8859-1/man1/vimtutor.1",
+    "share/man/fr.UTF-8/man1/evim.1",
+    "share/man/fr.UTF-8/man1/vim.1",
+    "share/man/fr.UTF-8/man1/vimtutor.1",
+    "share/man/it/man1/evim.1",
+    "share/man/it/man1/vim.1",
+    "share/man/it/man1/vimtutor.1",
+    "share/man/it.ISO8859-1/man1/evim.1",
+    "share/man/it.ISO8859-1/man1/vim.1",
+    "share/man/it.ISO8859-1/man1/vimtutor.1",
+    "share/man/it.UTF-8/man1/evim.1",
+    "share/man/it.UTF-8/man1/vim.1",
+    "share/man/it.UTF-8/man1/vimtutor.1",
+    "share/man/ja/man1/evim.1",
+    "share/man/ja/man1/vim.1",
+    "share/man/ja/man1/vimtutor.1",
+    "share/man/man1/evim.1",
+    "share/man/man1/vim.1",
+    "share/man/man1/vimtutor.1",
+    "share/man/pl/man1/evim.1",
+    "share/man/pl/man1/vim.1",
+    "share/man/pl/man1/vimtutor.1",
+    "share/man/pl.ISO8859-2/man1/evim.1",
+    "share/man/pl.ISO8859-2/man1/vim.1",
+    "share/man/pl.ISO8859-2/man1/vimtutor.1",
+    "share/man/pl.UTF-8/man1/evim.1",
+    "share/man/pl.UTF-8/man1/vim.1",
+    "share/man/pl.UTF-8/man1/vimtutor.1",
+    "share/man/ru.KOI8-R/man1/evim.1",
+    "share/man/ru.KOI8-R/man1/vim.1",
+    "share/man/ru.KOI8-R/man1/vimtutor.1",
+    "share/man/ru.UTF-8/man1/evim.1",
+    "share/man/ru.UTF-8/man1/vim.1",
+    "share/man/ru.UTF-8/man1/vimtutor.1",
+    "share/man/tr/man1/evim.1",
+    "share/man/tr/man1/vim.1",
+    "share/man/tr/man1/vimtutor.1",
+    "share/man/tr.ISO8859-9/man1/evim.1",
+    "share/man/tr.ISO8859-9/man1/vim.1",
+    "share/man/tr.ISO8859-9/man1/vimtutor.1",
+    "share/man/tr.UTF-8/man1/evim.1",
+    "share/man/tr.UTF-8/man1/vim.1",
+    "share/man/tr.UTF-8/man1/vimtutor.1"
+  ],
+  "time": 1709701511,
+  "source_modified_time": 1709667547,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "gettext",
+      "version": "0.22.5",
+      "revision": 0,
+      "pkg_version": "0.22.5",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libsodium",
+      "version": "1.0.19",
+      "revision": 0,
+      "pkg_version": "1.0.19",
+      "declared_directly": true
+    },
+    {
+      "full_name": "lua",
+      "version": "5.4.6",
+      "revision": 0,
+      "pkg_version": "5.4.6",
+      "declared_directly": true
+    },
+    {
+      "full_name": "ncurses",
+      "version": "6.4",
+      "revision": 0,
+      "pkg_version": "6.4",
+      "declared_directly": true
+    },
+    {
+      "full_name": "berkeley-db@5",
+      "version": "5.3.28",
+      "revision": 1,
+      "pkg_version": "5.3.28_1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "gdbm",
+      "version": "1.23",
+      "revision": 0,
+      "pkg_version": "1.23",
+      "declared_directly": false
+    },
+    {
+      "full_name": "perl",
+      "version": "5.38.2",
+      "revision": 1,
+      "pkg_version": "5.38.2_1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "mpdecimal",
+      "version": "4.0.0",
+      "revision": 0,
+      "pkg_version": "4.0.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "readline",
+      "version": "8.2.10",
+      "revision": 0,
+      "pkg_version": "8.2.10",
+      "declared_directly": false
+    },
+    {
+      "full_name": "sqlite",
+      "version": "3.45.1",
+      "revision": 0,
+      "pkg_version": "3.45.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "xz",
+      "version": "5.6.0",
+      "revision": 0,
+      "pkg_version": "5.6.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "python@3.12",
+      "version": "3.12.2",
+      "revision": 1,
+      "pkg_version": "3.12.2_1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libyaml",
+      "version": "0.2.5",
+      "revision": 0,
+      "pkg_version": "0.2.5",
+      "declared_directly": false
+    },
+    {
+      "full_name": "ruby",
+      "version": "3.3.0",
+      "revision": 0,
+      "pkg_version": "3.3.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "9.1.0150",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/v/vim.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

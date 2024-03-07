@@ -1,0 +1,1 @@
+../../../../Cellar/libgpg-error/1.48/share/locale/de/LC_MESSAGES/libgpg-error.mo

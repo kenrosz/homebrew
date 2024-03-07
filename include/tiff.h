@@ -1,0 +1,1 @@
+../Cellar/libtiff/4.6.0/include/tiff.h

@@ -1,0 +1,10 @@
+prefix=/opt/homebrew/Cellar/libssh/0.10.6
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/libssh/0.10.6/lib
+includedir=/opt/homebrew/Cellar/libssh/0.10.6/include
+
+Name: libssh
+Description: The SSH Library
+Version: 0.10.6
+Libs: -L${libdir} -lssh
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/opt/homebrew/Cellar/abseil/20230802.1
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/abseil/20230802.1/lib
+includedir=/opt/homebrew/Cellar/abseil/20230802.1/include
+
+Name: absl_random_mocking_bit_gen
+Description: Abseil random_mocking_bit_gen library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_flat_hash_map = 20230802, absl_raw_logging_internal = 20230802, absl_random_distributions = 20230802, absl_random_internal_distribution_caller = 20230802, absl_random_internal_mock_overload_set = 20230802, absl_random_random = 20230802, absl_strings = 20230802, absl_span = 20230802, absl_type_traits = 20230802, absl_utility = 20230802, absl_variant = 20230802
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -DNOMINMAX

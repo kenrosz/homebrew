@@ -1,0 +1,1 @@
+../../Cellar/pcre2/10.43/lib/pkgconfig/libpcre2-posix.pc

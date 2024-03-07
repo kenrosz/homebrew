@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/__fish_make_cache_dir.fish

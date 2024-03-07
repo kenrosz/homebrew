@@ -1,0 +1,108 @@
+{
+  "homebrew_version": "4.2.2-16-g21a6f93",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+
+  ],
+  "time": 1709611971,
+  "source_modified_time": 1703942320,
+  "compiler": "clang",
+  "aliases": [
+    "nvim"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "gettext",
+      "version": "0.22.5",
+      "revision": 0,
+      "pkg_version": "0.22.5",
+      "declared_directly": true
+    },
+    {
+      "full_name": "unibilium",
+      "version": "2.1.1",
+      "revision": 0,
+      "pkg_version": "2.1.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libtermkey",
+      "version": "0.22",
+      "revision": 0,
+      "pkg_version": "0.22",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libuv",
+      "version": "1.48.0",
+      "revision": 0,
+      "pkg_version": "1.48.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libvterm",
+      "version": "0.3.3",
+      "revision": 0,
+      "pkg_version": "0.3.3",
+      "declared_directly": true
+    },
+    {
+      "full_name": "luajit",
+      "version": "2.1.1703358377",
+      "revision": 0,
+      "pkg_version": "2.1.1703358377",
+      "declared_directly": true
+    },
+    {
+      "full_name": "luv",
+      "version": "1.48.0-2",
+      "revision": 0,
+      "pkg_version": "1.48.0-2",
+      "declared_directly": true
+    },
+    {
+      "full_name": "msgpack",
+      "version": "6.0.0",
+      "revision": 0,
+      "pkg_version": "6.0.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "tree-sitter",
+      "version": "0.21.0",
+      "revision": 0,
+      "pkg_version": "0.21.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "0.9.5",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Aliases/nvim",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

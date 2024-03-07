@@ -1,0 +1,12 @@
+prefix=/opt/homebrew/Cellar/libtiff/4.6.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.6.0
+Libs: -L${libdir} -ltiff
+Libs.private: -lzstd -llzma -ljpeg -lz 
+Cflags: -I${includedir}
+Requires.private: libzstd liblzma libjpeg zlib 

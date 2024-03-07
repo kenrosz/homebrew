@@ -1,0 +1,1 @@
+../../Cellar/pixman/0.42.2/lib/pkgconfig/pixman-1.pc

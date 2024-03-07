@@ -1,0 +1,13 @@
+prefix=/opt/homebrew/Cellar/libarchive/3.7.2
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/libarchive/3.7.2/lib
+includedir=${prefix}/include
+
+Name: libarchive
+Description: library that can create and read several streaming archive formats
+Version: 3.7.2
+Cflags: -I${includedir}
+Cflags.private: -DLIBARCHIVE_STATIC
+Libs: -L${libdir} -larchive
+Libs.private: -liconv -lexpat -llzma -lzstd -llz4 -lb2 -lbz2 -lz 
+

@@ -1,0 +1,14 @@
+prefix=/opt/homebrew/Cellar/libmicrohttpd/1.0.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmicrohttpd
+Description: A library for creating an embedded HTTP server
+Version: 1.0.1
+Requires:
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lmicrohttpd
+Libs.private: -lgnutls -lpthread 
+Cflags: -I${includedir}

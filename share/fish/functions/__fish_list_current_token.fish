@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/__fish_list_current_token.fish

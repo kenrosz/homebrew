@@ -1,0 +1,60 @@
+{
+  "homebrew_version": "4.1.20-19-ge137891",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "bin/libgcrypt-config",
+    "lib/pkgconfig/libgcrypt.pc"
+  ],
+  "time": 1709583871,
+  "source_modified_time": 1699963300,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "gettext",
+      "version": "0.22.5",
+      "revision": 0,
+      "pkg_version": "0.22.5",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libgpg-error",
+      "version": "1.48",
+      "revision": 0,
+      "pkg_version": "1.48",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "1.10.3",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/lib/libgcrypt.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.0",
+    "clt": "15.0.0.0.1.1694021235",
+    "preferred_perl": "5.34"
+  }
+}

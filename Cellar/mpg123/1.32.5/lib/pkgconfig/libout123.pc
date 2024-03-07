@@ -1,0 +1,12 @@
+prefix=/opt/homebrew/Cellar/mpg123/1.32.5
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/mpg123/1.32.5/lib
+includedir=${prefix}/include
+
+Name: libout123
+Description: A streaming audio output API derived from mpg123
+Requires: 
+Version: 1.32.5
+Libs: -L${libdir} -lout123 
+Libs.private:    
+Cflags: -I${includedir} 

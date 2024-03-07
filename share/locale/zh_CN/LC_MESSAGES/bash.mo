@@ -1,0 +1,1 @@
+../../../../Cellar/bash/5.2.26/share/locale/zh_CN/LC_MESSAGES/bash.mo

@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/fish_hg_prompt.fish

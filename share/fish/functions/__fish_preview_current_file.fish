@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/__fish_preview_current_file.fish

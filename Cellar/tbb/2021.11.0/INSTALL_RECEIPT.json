@@ -1,0 +1,54 @@
+{
+  "homebrew_version": "4.1.22-63-ga609182",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "lib/cmake/TBB/TBBTargets.cmake",
+    "lib/pkgconfig/tbb.pc"
+  ],
+  "time": 1709609418,
+  "source_modified_time": 1700238185,
+  "compiler": "clang",
+  "aliases": [
+    "onetbb",
+    "tbb@2021"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "hwloc",
+      "version": "2.10.0",
+      "revision": 0,
+      "pkg_version": "2.10.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2021.11.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/t/tbb.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.0",
+    "clt": "15.0.0.0.1.1694021235",
+    "preferred_perl": "5.34"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "homebrew_version": "4.2.4-30-g8c805d7",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "lib/pkgconfig/gnutls-dane.pc",
+    "lib/pkgconfig/gnutls.pc"
+  ],
+  "time": 1709583869,
+  "source_modified_time": 1705397856,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": true
+    },
+    {
+      "full_name": "gmp",
+      "version": "6.3.0",
+      "revision": 0,
+      "pkg_version": "6.3.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libunistring",
+      "version": "1.2",
+      "revision": 0,
+      "pkg_version": "1.2",
+      "declared_directly": true
+    },
+    {
+      "full_name": "gettext",
+      "version": "0.22.5",
+      "revision": 0,
+      "pkg_version": "0.22.5",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libidn2",
+      "version": "2.3.7",
+      "revision": 0,
+      "pkg_version": "2.3.7",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libtasn1",
+      "version": "4.19.0",
+      "revision": 0,
+      "pkg_version": "4.19.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "nettle",
+      "version": "3.9.1",
+      "revision": 0,
+      "pkg_version": "3.9.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "p11-kit",
+      "version": "0.25.3",
+      "revision": 0,
+      "pkg_version": "0.25.3",
+      "declared_directly": true
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libevent",
+      "version": "2.1.12",
+      "revision": 1,
+      "pkg_version": "2.1.12_1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libnghttp2",
+      "version": "1.60.0",
+      "revision": 0,
+      "pkg_version": "1.60.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "unbound",
+      "version": "1.19.1",
+      "revision": 0,
+      "pkg_version": "1.19.1",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "3.8.3",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/g/gnutls.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

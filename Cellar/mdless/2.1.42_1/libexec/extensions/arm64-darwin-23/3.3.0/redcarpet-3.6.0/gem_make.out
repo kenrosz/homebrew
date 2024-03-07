@@ -1,0 +1,27 @@
+current directory: /opt/homebrew/Cellar/mdless/2.1.42_1/libexec/gems/redcarpet-3.6.0/ext/redcarpet
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /opt/homebrew/Cellar/mdless/2.1.42_1/libexec/gems/redcarpet-3.6.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20240109-24529-3irgew sitelibdir\=./.gem.20240109-24529-3irgew clean
+
+current directory: /opt/homebrew/Cellar/mdless/2.1.42_1/libexec/gems/redcarpet-3.6.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20240109-24529-3irgew sitelibdir\=./.gem.20240109-24529-3irgew
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+compiling rc_render.c
+compiling stack.c
+linking shared-object redcarpet.bundle
+
+current directory: /opt/homebrew/Cellar/mdless/2.1.42_1/libexec/gems/redcarpet-3.6.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20240109-24529-3irgew sitelibdir\=./.gem.20240109-24529-3irgew install
+/usr/bin/install -c -m 0755 redcarpet.bundle ./.gem.20240109-24529-3irgew
+
+current directory: /opt/homebrew/Cellar/mdless/2.1.42_1/libexec/gems/redcarpet-3.6.0/ext/redcarpet
+make DESTDIR\= sitearchdir\=./.gem.20240109-24529-3irgew sitelibdir\=./.gem.20240109-24529-3irgew clean

@@ -1,0 +1,11 @@
+prefix=/opt/homebrew/Cellar/frei0r/2.3.2
+exec_prefix=/opt/homebrew/Cellar/frei0r/2.3.2
+libdir=/opt/homebrew/Cellar/frei0r/2.3.2/lib
+includedir=/opt/homebrew/Cellar/frei0r/2.3.2/include
+
+Name: frei0r
+Description: minimalistic plugin API for video effects
+Version: 1.8
+Libs:
+Cflags: -I${includedir}
+

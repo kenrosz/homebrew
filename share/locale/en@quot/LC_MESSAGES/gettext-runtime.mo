@@ -1,0 +1,1 @@
+../../../../Cellar/gettext/0.22.5/share/locale/en@quot/LC_MESSAGES/gettext-runtime.mo

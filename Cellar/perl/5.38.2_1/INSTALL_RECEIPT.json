@@ -1,0 +1,90 @@
+{
+  "homebrew_version": "4.2.1-30-gf3c687e",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "bin/corelist",
+    "bin/cpan",
+    "bin/enc2xs",
+    "bin/encguess",
+    "bin/h2ph",
+    "bin/h2xs",
+    "bin/instmodsh",
+    "bin/json_pp",
+    "bin/libnetcfg",
+    "bin/perlbug",
+    "bin/perlthanks",
+    "bin/perldoc",
+    "bin/perlivp",
+    "bin/piconv",
+    "bin/pl2pm",
+    "bin/pod2html",
+    "bin/pod2man",
+    "bin/pod2text",
+    "bin/pod2usage",
+    "bin/podchecker",
+    "bin/prove",
+    "bin/ptar",
+    "bin/ptardiff",
+    "bin/ptargrep",
+    "bin/shasum",
+    "bin/splain",
+    "bin/streamzip",
+    "bin/xsubpp",
+    "bin/zipdetails",
+    "lib/perl5/5.38/darwin-thread-multi-2level/CORE/config.h",
+    "lib/perl5/5.38/darwin-thread-multi-2level/Config.pm",
+    "lib/perl5/5.38/darwin-thread-multi-2level/Config_heavy.pl"
+  ],
+  "time": 1709701509,
+  "source_modified_time": 1701180287,
+  "compiler": "clang",
+  "aliases": [
+    "perl@5.38"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "berkeley-db@5",
+      "version": "5.3.28",
+      "revision": 1,
+      "pkg_version": "5.3.28_1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "gdbm",
+      "version": "1.23",
+      "revision": 0,
+      "pkg_version": "1.23",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "5.38.2",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/p/perl.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "homebrew_version": "4.2.9-42-gc355461",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "libexec/bin/mid3cp",
+    "libexec/bin/mid3iconv",
+    "libexec/bin/mid3v2",
+    "libexec/bin/moggsplit",
+    "libexec/bin/mutagen-inspect",
+    "libexec/bin/mutagen-pony",
+    "libexec/bin/normalizer",
+    "libexec/bin/yt-dlp",
+    "libexec/lib/python3.12/site-packages/homebrew_deps.pth",
+    "libexec/pyvenv.cfg"
+  ],
+  "time": 1709609360,
+  "source_modified_time": 1703973092,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "python-certifi",
+      "version": "2024.2.2",
+      "revision": 0,
+      "pkg_version": "2024.2.2",
+      "declared_directly": true
+    },
+    {
+      "full_name": "mpdecimal",
+      "version": "4.0.0",
+      "revision": 0,
+      "pkg_version": "4.0.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "readline",
+      "version": "8.2.10",
+      "revision": 0,
+      "pkg_version": "8.2.10",
+      "declared_directly": false
+    },
+    {
+      "full_name": "sqlite",
+      "version": "3.45.1",
+      "revision": 0,
+      "pkg_version": "3.45.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "xz",
+      "version": "5.6.0",
+      "revision": 0,
+      "pkg_version": "5.6.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "python@3.12",
+      "version": "3.12.2",
+      "revision": 1,
+      "pkg_version": "3.12.2_1",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2023.12.30",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/y/yt-dlp.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

@@ -1,0 +1,12 @@
+prefix=/opt/homebrew/Cellar/abseil/20230802.1
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/abseil/20230802.1/lib
+includedir=/opt/homebrew/Cellar/abseil/20230802.1/include
+
+Name: absl_hash_policy_traits
+Description: Abseil hash_policy_traits library
+URL: https://abseil.io/
+Version: 20230802
+Requires: absl_common_policy_traits = 20230802, absl_meta = 20230802
+Libs: -L${libdir}  
+Cflags: -I${includedir} -Wno-float-conversion -Wno-implicit-float-conversion -Wno-implicit-int-float-conversion -Wno-unknown-warning-option -DNOMINMAX

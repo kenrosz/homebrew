@@ -1,0 +1,82 @@
+                        ascii project news
+
+3.20: 2024-02-16::
+  Do two user requests for more informative handling of CLI flags.
+
+3.19: 2024-02-07::
+  Accept 7-bit binary literals, with 0b prefix.
+  Accept names of POSIX character classes.
+
+3.18: 2017-08-01::
+  Fix a packaging error, include NEWS in the tarball.
+
+3.17: 2017-07-31::
+  Add -b option to generate a table with binary code-points.
+
+3.16: 2017-07-18::
+  Add -a option to print in 4-column mode.
+  0-fill fix and octal code-point literals.
+
+3.15: 2015-04-02::
+  Gitorious is doomed. Project must move and metadata change accordingly.
+
+3.14: 2013-11-27::
+  Recognize \0 as ASCII NUL.
+  ascii.cgi deleted: the <isindex> it relies on is archaic and nonconformant.
+  Markup improvements on the manual page.
+
+3.13: 2013-11-20::
+  Tweak Makefile to obey $(PREFIX) convention (from MacPorts).
+
+3.12: 2012-11-23::
+  Cygwin port fix.
+
+3.11: 2011-03-15::
+  Recognize single decimal or hex digits.
+  Minor bug fixes and additional character names from Debian.
+
+3.10: 2010-10-19::
+  License change to BSD. Polish code to modern fully-ANSI C.
+
+3.9: 2010-10-13::
+  Fix some bugs in the name table.
+
+3.8: 2005-03-03::
+  Well, that was embarrassing.  Note to self: *test the correct version
+  next time*.  Thanks to Marco Vanoni for the fix patch.
+
+3.7: 2005-03-02::
+  Fix a comment bug in the nametable. Improve splashscreen generation.
+
+3.6: 2004-01-11::
+  Fix brown-paper-bag bug in the Space entry.
+
+3.5: 2003-12-28 2003
+  Source RPMs no longer require myversion to be defined.
+
+3.4: 2003-12-24::
+  Fix error in ! entry in nametable file.
+
+3.3: 2003-12-24::
+  Fix portability bug in Makefile sed script.
+
+3.2: 2003-12-15::
+  Add knowledge of XML entity names.
+
+First released by Eric S. Raymond <esr@snark.thyrsus.com>, v1.0 March 1990
+
+-----
+v1.1 November 1990  -- revised `slang' from the 2.2 pronunciation guide
+v1.2 March 1995     -- Fixed a core-dump bug
+v1.3 October 1995   -- Fixed a bug that shows up only under ELF.
+v2.0 December 1995  -- Interpret ISO-style code table escapes.
+v2.1 August 1997    -- merge in changes by Ioannis Tambouras.
+v2.2 November 1997  -- merge in more changes by Ioannis Tambouras.
+v2.3 November 1997  -- incorporated Colin Plumb's splash-screen idea.
+v2.4 December 1998  -- additions by Brian Ginsbach.
+v2.5 December 1998  -- -s option by David N. Welton.
+v2.6 June 1999      -- bug fixes by M.R. van Schouwen.
+v2.7 October 1999   -- minor packaging and option changes.
+v3.0 July 2000      -- added HTML/SGML entity names
+v3.1 July 2002      -- documentation converted to XML
+-----

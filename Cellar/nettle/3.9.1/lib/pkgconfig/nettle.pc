@@ -1,0 +1,11 @@
+prefix=/opt/homebrew/Cellar/nettle/3.9.1
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/nettle/3.9.1/lib
+includedir=${prefix}/include
+
+Name: Nettle
+Description: Nettle low-level cryptographic library (symmetric algorithms)
+URL: http://www.lysator.liu.se/~nisse/nettle
+Version: 3.9.1
+Libs: -L${libdir} -lnettle
+Cflags: -I${includedir}

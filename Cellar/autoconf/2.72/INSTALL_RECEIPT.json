@@ -1,0 +1,59 @@
+{
+  "homebrew_version": "4.2.0-56-g2cbe388",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "bin/autoconf",
+    "bin/autoheader",
+    "bin/autom4te",
+    "bin/autoreconf",
+    "bin/autoscan",
+    "bin/autoupdate",
+    "bin/ifnames",
+    "share/autoconf/autom4te.cfg"
+  ],
+  "time": 1709583851,
+  "source_modified_time": 1703270713,
+  "compiler": "clang",
+  "aliases": [
+    "autoconf@2.72"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "m4",
+      "version": "1.4.19",
+      "revision": 0,
+      "pkg_version": "1.4.19",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2.72",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/a/autoconf.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

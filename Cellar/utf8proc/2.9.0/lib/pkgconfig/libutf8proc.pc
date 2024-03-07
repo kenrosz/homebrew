@@ -1,0 +1,10 @@
+prefix=/opt/homebrew/Cellar/utf8proc/2.9.0
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libutf8proc
+Description: UTF8 processing
+Version: 3.0.0
+Libs: -L${libdir} -lutf8proc
+Cflags: -I${includedir} -DUTF8PROC_EXPORTS

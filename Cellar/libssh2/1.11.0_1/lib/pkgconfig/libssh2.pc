@@ -1,0 +1,17 @@
+###########################################################################
+# libssh2 installation details
+###########################################################################
+
+prefix=/opt/homebrew/Cellar/libssh2/1.11.0_1
+exec_prefix=${prefix}
+libdir=/opt/homebrew/Cellar/libssh2/1.11.0_1/lib
+includedir=${prefix}/include
+
+Name: libssh2
+URL: https://www.libssh2.org/
+Description: Library for SSH-based communication
+Version: 1.11.0
+Requires.private: libssl libcrypto zlib
+Libs: -L${libdir} -lssh2  -L/opt/homebrew/opt/openssl@3/lib -lssl -L/opt/homebrew/opt/openssl@3/lib -lcrypto -R/opt/homebrew/opt/openssl@3/lib
+Libs.private:  -L/opt/homebrew/opt/openssl@3/lib -lssl -L/opt/homebrew/opt/openssl@3/lib -lcrypto -R/opt/homebrew/opt/openssl@3/lib
+Cflags: -I${includedir}

@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/fish_is_root_user.fish

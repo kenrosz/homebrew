@@ -1,0 +1,83 @@
+{
+  "homebrew_version": "4.2.11-65-g8a852cf",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "sbin/unbound-control-setup",
+    ".bottle/etc/unbound/unbound.conf",
+    "homebrew.mxcl.unbound.plist",
+    "homebrew.unbound.service",
+    "lib/pkgconfig/libunbound.pc",
+    "share/man/man5/unbound.conf.5",
+    "share/man/man8/unbound-anchor.8",
+    "share/man/man8/unbound-checkconf.8",
+    "share/man/man8/unbound-control-setup.8",
+    "share/man/man8/unbound-control.8",
+    "share/man/man8/unbound.8"
+  ],
+  "time": 1709828122,
+  "source_modified_time": 1709799338,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libevent",
+      "version": "2.1.12",
+      "revision": 1,
+      "pkg_version": "2.1.12_1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libnghttp2",
+      "version": "1.60.0",
+      "revision": 0,
+      "pkg_version": "1.60.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "1.19.2",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/u/unbound.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

@@ -1,0 +1,10 @@
+prefix=/opt/homebrew/Cellar/jpeg-turbo/3.0.1
+exec_prefix=/opt/homebrew/Cellar/jpeg-turbo/3.0.1
+libdir=/opt/homebrew/Cellar/jpeg-turbo/3.0.1/lib
+includedir=/opt/homebrew/Cellar/jpeg-turbo/3.0.1/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.1
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}

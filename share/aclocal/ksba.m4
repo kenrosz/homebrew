@@ -1,0 +1,1 @@
+../../Cellar/libksba/1.6.6/share/aclocal/ksba.m4

@@ -1,0 +1,11 @@
+prefix=/opt/homebrew/Cellar/util-linux/2.39.3
+exec_prefix=/opt/homebrew/Cellar/util-linux/2.39.3
+libdir=/opt/homebrew/Cellar/util-linux/2.39.3/lib
+includedir=/opt/homebrew/Cellar/util-linux/2.39.3/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.39.3
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

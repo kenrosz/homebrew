@@ -1,0 +1,1 @@
+../../../Cellar/fish/3.7.0/share/fish/functions/__fish_number_of_cmd_args_wo_opts.fish

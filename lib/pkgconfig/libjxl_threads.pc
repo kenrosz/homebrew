@@ -1,0 +1,1 @@
+../../Cellar/jpeg-xl/0.10.1/lib/pkgconfig/libjxl_threads.pc

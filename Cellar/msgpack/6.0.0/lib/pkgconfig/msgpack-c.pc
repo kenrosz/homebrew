@@ -1,0 +1,10 @@
+prefix=/opt/homebrew/Cellar/msgpack/6.0.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: MessagePack
+Description: Binary-based efficient object serialization library
+Version: 6.0.0
+Libs: -L${libdir} -lmsgpack-c
+Cflags: -I${includedir}

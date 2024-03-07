@@ -1,0 +1,1 @@
+../../../Cellar/yt-dlp/2023.12.30/share/fish/vendor_completions.d/yt-dlp.fish

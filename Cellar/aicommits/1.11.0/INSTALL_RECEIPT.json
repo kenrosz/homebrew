@@ -1,0 +1,101 @@
+{
+  "homebrew_version": "4.0.16-15-gfec24f5",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+
+  ],
+  "time": 1709828099,
+  "source_modified_time": 499162500,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "brotli",
+      "version": "1.1.0",
+      "revision": 0,
+      "pkg_version": "1.1.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "c-ares",
+      "version": "1.27.0",
+      "revision": 0,
+      "pkg_version": "1.27.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "icu4c",
+      "version": "74.2",
+      "revision": 0,
+      "pkg_version": "74.2",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libnghttp2",
+      "version": "1.60.0",
+      "revision": 0,
+      "pkg_version": "1.60.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "libuv",
+      "version": "1.48.0",
+      "revision": 0,
+      "pkg_version": "1.48.0",
+      "declared_directly": false
+    },
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": false
+    },
+    {
+      "full_name": "node",
+      "version": "21.6.2",
+      "revision": 1,
+      "pkg_version": "21.6.2_1",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "1.11.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/a/aicommits.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 13.3",
+    "cpu_family": "penryn",
+    "xcode": "14.3",
+    "clt": "14.3.0.0.1.1679647830",
+    "preferred_perl": "5.30"
+  }
+}

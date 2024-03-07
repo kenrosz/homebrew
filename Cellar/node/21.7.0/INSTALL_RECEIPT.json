@@ -1,0 +1,97 @@
+{
+  "homebrew_version": "4.2.11-54-g76c7245",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": true,
+  "installed_on_request": false,
+  "changed_files": [
+    "include/node/config.gypi"
+  ],
+  "time": 1709828120,
+  "source_modified_time": 1709740187,
+  "compiler": "clang",
+  "aliases": [
+    "node.js",
+    "node@21",
+    "nodejs",
+    "npm"
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "brotli",
+      "version": "1.1.0",
+      "revision": 0,
+      "pkg_version": "1.1.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "c-ares",
+      "version": "1.27.0",
+      "revision": 0,
+      "pkg_version": "1.27.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "icu4c",
+      "version": "74.2",
+      "revision": 0,
+      "pkg_version": "74.2",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libnghttp2",
+      "version": "1.60.0",
+      "revision": 0,
+      "pkg_version": "1.60.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "libuv",
+      "version": "1.48.0",
+      "revision": 0,
+      "pkg_version": "1.48.0",
+      "declared_directly": true
+    },
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "21.7.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/n/node.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}

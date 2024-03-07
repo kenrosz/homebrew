@@ -1,0 +1,1 @@
+../../../../Cellar/gnupg/2.4.4/share/locale/el/LC_MESSAGES/gnupg2.mo

@@ -1,0 +1,1 @@
+../../../../Cellar/git/2.44.0/share/locale/de/LC_MESSAGES/git.mo

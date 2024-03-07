@@ -1,0 +1,1 @@
+../../Cellar/gettext/0.22.5/share/aclocal/lib-link.m4

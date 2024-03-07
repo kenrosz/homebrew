@@ -1,0 +1,13 @@
+prefix=/opt/homebrew/Cellar/oniguruma/6.9.9
+exec_prefix=/opt/homebrew/Cellar/oniguruma/6.9.9
+libdir=/opt/homebrew/Cellar/oniguruma/6.9.9/lib
+includedir=/opt/homebrew/Cellar/oniguruma/6.9.9/include
+datarootdir=/opt/homebrew/Cellar/oniguruma/6.9.9/share
+datadir=/opt/homebrew/Cellar/oniguruma/6.9.9/share
+
+Name: oniguruma
+Description: Regular expression library
+Version: 6.9.9
+Requires:
+Libs: -L${libdir} -lonig
+Cflags: -I${includedir}

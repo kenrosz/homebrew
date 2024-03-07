@@ -1,0 +1,1 @@
+../../Cellar/openjpeg/2.5.2/lib/pkgconfig/libopenjp2.pc

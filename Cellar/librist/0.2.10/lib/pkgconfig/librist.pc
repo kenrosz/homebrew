@@ -1,0 +1,10 @@
+prefix=/opt/homebrew/Cellar/librist/0.2.10
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: librist
+Description: Reliable Internet Stream Transport (RIST)
+Version: 0.2.10
+Libs: -L${libdir} -lrist
+Libs.private: -lmbedcrypto -lcjson
+Cflags: -I${includedir}

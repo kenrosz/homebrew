@@ -1,0 +1,1 @@
+../../../../../Cellar/fish/3.7.0/share/fish/tools/web_config/sample_prompts/informative_vcs.fish

@@ -1,0 +1,1 @@
+../Cellar/giflib/5.2.1/include/gif_lib.h

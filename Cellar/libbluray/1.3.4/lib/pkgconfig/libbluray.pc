@@ -1,0 +1,12 @@
+prefix=/opt/homebrew/Cellar/libbluray/1.3.4
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libbluray
+Description: library supporting Blu-ray playback
+Version: 1.3.4
+Libs: -L${libdir} -lbluray
+Libs.private:   -framework CoreFoundation -framework DiskArbitration
+Requires.private:  libxml-2.0 >= 2.6 freetype2 fontconfig
+Cflags: -I${includedir}

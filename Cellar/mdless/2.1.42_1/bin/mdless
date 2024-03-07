@@ -1,0 +1,2 @@
+#!/bin/bash
+GEM_HOME="/opt/homebrew/Cellar/mdless/2.1.42_1/libexec" exec "/opt/homebrew/Cellar/mdless/2.1.42_1/libexec/bin/mdless"  "$@"

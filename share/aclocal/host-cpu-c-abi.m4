@@ -1,0 +1,1 @@
+../../Cellar/gettext/0.22.5/share/aclocal/host-cpu-c-abi.m4

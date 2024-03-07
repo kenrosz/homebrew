@@ -1,0 +1,13 @@
+                                ascii
+
+This is a handy little utility that recognizes many different ways of
+naming an ASCII character (hex, octal, binary, decimal, C escape, ISO
+character table pair, slang names, and others) and prints out all the
+equivalents.
+
+The latest sources for this utility live at
+
+        http://www.catb.org/~esr/ascii/
+
+                                                        Eric S. Raymond
+                                                        esr@thyrsus.com

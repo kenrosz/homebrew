@@ -1,0 +1,88 @@
+{
+  "homebrew_version": "4.2.8-43-g3a437ae",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": true,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "libexec/pyenv",
+    "libexec/pyenv-rehash"
+  ],
+  "time": 1709611244,
+  "source_modified_time": 1707861524,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "m4",
+      "version": "1.4.19",
+      "revision": 0,
+      "pkg_version": "1.4.19",
+      "declared_directly": false
+    },
+    {
+      "full_name": "autoconf",
+      "version": "2.72",
+      "revision": 0,
+      "pkg_version": "2.72",
+      "declared_directly": true
+    },
+    {
+      "full_name": "ca-certificates",
+      "version": "2023-12-12",
+      "revision": 0,
+      "pkg_version": "2023-12-12",
+      "declared_directly": false
+    },
+    {
+      "full_name": "openssl@3",
+      "version": "3.2.1",
+      "revision": 0,
+      "pkg_version": "3.2.1",
+      "declared_directly": true
+    },
+    {
+      "full_name": "pkg-config",
+      "version": "0.29.2",
+      "revision": 3,
+      "pkg_version": "0.29.2_3",
+      "declared_directly": true
+    },
+    {
+      "full_name": "readline",
+      "version": "8.2.10",
+      "revision": 0,
+      "pkg_version": "8.2.10",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "2.3.36",
+      "head": null,
+      "version_scheme": 1
+    },
+    "path": "/opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/p/pyenv.rb",
+    "tap_git_head": null,
+    "tap": "homebrew/core"
+  },
+  "arch": "arm64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 14",
+    "cpu_family": "dunno",
+    "xcode": "15.1",
+    "clt": "15.1.0.0.1.1700200546",
+    "preferred_perl": "5.34"
+  }
+}
